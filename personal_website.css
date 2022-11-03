@@ -1,0 +1,127 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.container{
+    background-image: url("https://images.unsplash.com/photo-1550850839-8dc894ed385a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container2{
+    background-color: rgb(211, 204, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.activities_title{
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.activities_title_images{
+   width: 750px;
+   display: flex;
+   flex-direction: row;
+   align-items: center
+}
+
+.activities_title_txt > img{
+    border-radius: 50%;
+    height: 100px;
+
+}
+
+.activities_title_txt{
+    margin: 0 10px 30px 10px;
+}
+
+.title, .sub_title{
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.title{
+    font-size: 25px;
+    margin: 40px 0 5px 0;
+    background-color: rgb(211, 204, 217);
+}
+.sub_title{
+    font-size: 15px;
+    margin: 5px 0 45px 0;
+    background-color: rgb(255, 184, 113);
+}
+.activities_title{
+    font-size: 18px;
+    
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    
+}
+.card_container{
+    background-color: rgb(255, 184, 113);
+    margin: 30px;
+    padding: 21px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+    border-bottom: 5px solid #F57A00
+    
+}
+
+.card_image{
+    margin-right: 10px;
+    padding: 5px;
+}
+.card_image > img{
+    width: 200px;
+}
+
+.card_txt{
+    margin-left: 10px;
+    width: 500px;
+}
+.card_txt > p {
+    font-style: italic;
+}
+.footer{
+    color: #fff;
+    background-color: rgb(133, 108, 182);
+    padding: 50px;
+    margin: 0;
+}
+.footer_link{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_link:hover{
+    color: rgba(243, 185, 9, 0.988);
+    text-decoration: none;
+    font-weight: bold;
+}
